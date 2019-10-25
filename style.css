@@ -145,6 +145,7 @@ Home Page
   background-color: gray;
   margin-left: 30px;
 }
+.btn-order{background: #37debb; color:#fff !important}
 .custListWrap{padding:0px 35px}
 .custListBtn{float:left;width:100%;cursor:pointer;padding:25px 0}
 .custListBtn .listIco, .custListBtn .listTitle{float:left;line-height:56px;color:#7a9e91;font-size:22px}
@@ -197,12 +198,6 @@ Home Page
   background-color: #091b2d;
   height: 4px;
 }
-/* ol.carousel-indicators li.active {
-  background: #091b2d ;
-} */
-/* ol.carousel-indicators li {
-  background: #32353866;
-} */
 
 .label{background: #ff3d3d; padding: 5px 5px;}
 .HomeSection3{}
@@ -294,6 +289,89 @@ HealthCare Page
 .healthSection3 .txtD .boxx h5{float:left;width:100%;margin-top:30px;line-height:36px}
 .healthSection3 .txtD .boxx p{float:left;width:100%;margin:0}
 .btmIMG{position:relative;bottom:-22px;left:0;margin-top:-100px}
+/*==== People Love  US===*/
+.main section {
+  position: relative;
+}
+.people-love-us {
+  background: url(images/home/ellipse1.png) 30vw 50px no-repeat;
+  background-size: 30px;
+  padding: 80px 0 125px;
+  background-color: #fafafa;
+}
+.people-love-us .content {
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+.people-love-us .circle img:first-child {
+  width: 50px;
+  left: 85px;
+  top:  32%;
+  z-index: 0;
+}
+.people-love-us .circle img:nth-child(2) {
+  right: calc(150px - 15vw);
+}
+.people-love-us .circle img {
+  width: 60px;
+  top: 115px;
+  left:98rem;
+  position: absolute;
+}
+.people-love-us .mt-60 .col-lg-5 .content {
+  background-color: #ffffff;
+  padding: 48px 40px 36px 84px;
+  border-radius: 10px;
+  min-height: 200px;
+  max-width: 500px;
+  display: inline-block;
+  z-index: 1;
+}
+.people-love-us .quote {
+  position: absolute;
+  font-family: CircularStd;
+  font-size: 84px;
+  font-weight: 900;
+  font-style: italic;
+  color: #00366c;
+  opacity: 0.3;
+  top: 15px;
+  left: 17px;
+}
+/*==== Laundering ===*/
+.start-laundring {
+  background: url(images/home/ellipse-5-copy-3.png) right 40px no-repeat;
+  background-size: 37px 37px;
+}
+.start-laundring .content {
+  margin: 0 auto;
+  padding: 60px;
+}
+.start-laundring .download-wrapper {
+  width: 686px;
+  height: 685px;
+  padding-top: 200px;
+  padding-left: 315px;
+  background: url(images/home/ellipse-5-copy-3.png) center no-repeat;
+  background-size: cover;
+}
+.start-laundring .mobile img {
+  margin: 30px 0 0 200px;
+  position: relative !important;
+  z-index: 1;
+}
+.start-laundring .mobile .circle img:first-child {
+  width: 48px;
+  top: 60px;
+  left: 0;
+ 
+}
+.start-laundring .mobile .circle img:nth-child(2) {
+  right: 0px;
+  bottom: 208px;
+  width:12%;
+}
 /*==== healthSection4 ===*/
 
 .healthSection4 .mainRow{min-height:760px;padding:150px 0 50px 0;background-color:#fff;background-image:url("images/health/bg4.png");background-size:cover;background-position:center bottom}
@@ -646,7 +724,7 @@ Post Page
 Footer 
 
 ===================*/
-footer{float:left;width:100%;min-height:261px;padding-top:40px;color:#fff;font-size:15px;background:#141225;position: relative}
+footer{float:left;width:100%;padding-top:40px;color:#fff;font-size:15px;background:#141225;position: relative}
 footer a{color:#fff}
 .footerDiv1{margin-bottom:40px}
 .footerDiv1 li,.footerDiv1 li a img{float:left}
@@ -1173,6 +1251,8 @@ header{height:60px;padding:15px 0}
 .offset-lg-1 {
   margin-left: 0.0%;
 }
+.start-laundring .download-wrapper{padding-left: 0px;}
+.start-laundring .mobile img{ margin: 0px;}
 .custListBtn .listIco{width:30px;margin-right:10px !important}
 .custListBtn .listIco svg{max-width:100%;vertical-align:top;height:28px}
 .custListBtn .listTitle{width:60%;text-align:left;line-height:28px;font-size:18px}	
@@ -1181,6 +1261,8 @@ header{height:60px;padding:15px 0}
 .HomeSection33 .mainRow{background-position:right 22% top;padding-bottom:80px}
 .HomeSection3 .mainRow h4{margin-bottom:0px !important}	
 .HomeSection33 .mainRow h4{margin-bottom:0px !important}	
+.people-love-us .circle img {top: 60px; left: 21rem;}
+.people-love-us .circle img:first-child {top: 2%; left:2%; }
 .randomImgs a img{-webkit-filter:grayscale(0%);filter:grayscale(0%)}
 .HomeSection4{background:#fff;margin:0}
 .HomeSection4 .container,.adsLPSection5R2Cont{left:0}
