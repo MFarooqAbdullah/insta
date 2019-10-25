@@ -309,6 +309,7 @@ input:focus,textarea:focus{outline:none!important}
 .no-pt{padding-top:0!important}
 .no-pb{padding-bottom:0!important}
 /*border gray*/
+.color-dark-blue{color:#00366c!important}
 .color-gray{color:#646464!important}
 .bg-gray{background-color:#646464!important}
 .border-gray{border:1px solid #646464 !important}

@@ -162,6 +162,49 @@ Home Page
 .custListBtn:hover .listTitle{color:#04ab6a}
 
 /*==== homeSection3 ===*/
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px solid rgba(0,0,0,.125) !important;
+  border-radius: .25rem;
+}
+.card-body {
+  padding: 0.25rem;
+}
+.red.lighten-1 {
+  background-color: #ef5350!important;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+}
+.carousel-indicators{
+  bottom: -50px;
+}
+.carousel-indicators li {
+  background-color: #32353866;
+  height: 4px;
+}
+.carousel-indicators li .active {
+  background-color: #091b2d;
+  height: 4px;
+}
+/* ol.carousel-indicators li.active {
+  background: #091b2d ;
+} */
+/* ol.carousel-indicators li {
+  background: #32353866;
+} */
+
+.label{background: #ff3d3d; padding: 5px 5px;}
 .HomeSection3{}
 .HomeSection3 .mainRow{/*	min-height:1190px;*/padding:45px 0 70px 0;background-image:url(images/home/h3.png);background-size:cover;background-position:center top}
 .HomeSection33 .mainRow{/*	min-height:1190px;*/padding:45px 0 70px 0;background: #091b2d;}
@@ -1136,7 +1179,7 @@ header{height:60px;padding:15px 0}
 .custListBtn .listArr{width:34px;height:34px;line-height:34px}	
 .HomeSection3 .mainRow{background-position:right 22% top;padding-bottom:80px}
 .HomeSection33 .mainRow{background-position:right 22% top;padding-bottom:80px}
-.HomeSection3 .mainRow h4{margin-bottom:40px !important}	
+.HomeSection3 .mainRow h4{margin-bottom:0px !important}	
 .HomeSection33 .mainRow h4{margin-bottom:0px !important}	
 .randomImgs a img{-webkit-filter:grayscale(0%);filter:grayscale(0%)}
 .HomeSection4{background:#fff;margin:0}
