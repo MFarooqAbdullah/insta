@@ -259,6 +259,76 @@ a.color-green:hover{color:#1ac784 !important}
 .HomeSection6 .mainRow .container{margin-top:-60px}
 /*========================================================================
 
+Pricing Page 
+
+===================*/
+
+.Pricing__navbar {
+  opacity: 0.8;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  line-height: 1.36;
+  margin-top: 49.4px;
+  min-width: 59rem;
+  border-bottom: 1px solid rgba(0, 54, 108, 0.6);
+}
+.Pricing li a.active {
+  font-weight: bold;
+  border-bottom: 3px solid #37debb;
+  padding-bottom: 2px;
+  opacity: 1;
+}
+.section li a {
+  display: block;
+  text-align: center;
+  padding-right: 15px;
+  margin-right: 31px;
+  text-decoration: none;
+  color: #00366c;
+  opacity: 0.8;
+}
+.block-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.Ellipse-5-copy-3 {
+  position: absolute;
+  left: -20px;
+  width: 38px;
+  border-radius: 38px;
+  height: 38px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 6px #37debb;
+}
+.Ellipse-5-copy-5 {
+  width: 38px;
+  border-radius: 38px;
+  position: absolute;
+  bottom: 100px;
+  height: 38px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 6px #2267ab;
+}
+.Ellipse-5-copy-4 {
+  width: 80px;
+  right:-40px;
+  border-radius: 38px;
+  position: absolute;
+  height: 80px;
+  opacity: 0.5;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 7px #2267ab;
+}
+.Ellipse-5-copy-6 {
+  position: absolute;
+  width: 50px;
+  border-radius: 38px;
+  height: 50px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 6px #37debb;
+}
+/*========================================================================
+
 HealthCare Page 
 
 ===================*/
