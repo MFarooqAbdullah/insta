@@ -2006,3 +2006,17 @@ padding-top: 60px;}
 	
 }
 
+/* Custom Media Queries */
+/* Nexus 10 */
+@media (min-width: 800px) and (max-width:1280px){
+  .v-line hr{
+    margin-left: 330px;
+  }
+  .nexus-center-card{
+    margin-left:160px;
+    margin-bottom: 30px;
+  }
+  .start-laundring .download-wrapper{
+    padding-left: 215px;
+  }
+}
