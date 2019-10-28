@@ -1110,7 +1110,7 @@ header .container{width:96%}
 .navDiv{padding-right:50px}	
 .HomeSection1 .mainRow{padding-bottom:120px}
 .HomeSection1 .mainRow,	.HomeSection2 .mainRow{padding-top:50px }
-.homeSection .mainRow{min-height:auto}
+.homeSection .mainRow{min-height:25rem;}
 section h2{font-size:42px;line-height:50px}
 section h3{font-size:32px;line-height:40px}
 section h4,.blogSection h4{font-size:26px;line-height:36px}
