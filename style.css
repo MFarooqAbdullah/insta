@@ -357,7 +357,7 @@ HealthCare Page
   background-size: cover;
 }
 .start-laundring .mobile img {
-  margin: 30px 0 0 200px;
+  margin: 30px 0 0 160px;
   position: relative !important;
   z-index: 1;
 }
@@ -1125,7 +1125,7 @@ section p,.custListWrap.active .custListDiv,
 .custListBtn .listIco svg{max-width:100%;vertical-align:top;height:28px}
 .custListBtn .listTitle{width:60%;text-align:left;line-height:24px;font-size:18px}	
 .custListBtn .listArr{width:34px;height:34px;line-height:34px}	
-.HomeSection3 .mainRow{padding-top:200px }
+.HomeSection3 .mainRow{padding-top:0px }
 .HomeSection33 .mainRow{padding-top:200px }
 .btn1{font-size:15px;line-height:40px;height:40px}
 .HomeSection5 .mainRow{min-height:1200px}
@@ -2016,7 +2016,44 @@ padding-top: 60px;}
     margin-left:160px;
     margin-bottom: 30px;
   }
+  .firm-left {
+    text-align: center !important;
+  }
+  .align-contact-left {
+    text-align: left!important;
+  }
   .start-laundring .download-wrapper{
     padding-left: 215px;
+  }
+}
+/* IPad Pro 10 */
+@media (min-width: 768px) and (max-width:1024px){
+  .nexus-center-card{
+    margin-left:135px;
+    margin-bottom:15px;
+  }
+  .nexus-center-card1{
+    margin-left:135px;
+  }
+  .v-line hr{
+    display: none;
+  }
+}
+@media (min-width: 1024px) and (max-width:1366px){
+  .v-line hr{
+    display: none;
+  }
+  .nexus-center-card1{
+    margin-left:250px;
+    margin-bottom: 30px;
+  }
+}
+/************** Home page Landscape Queries ***************/
+@media only screen 
+and (min-device-width : 1024px)
+and (max-device-width : 1366px) 
+and (orientation : landscape) {
+  .nexus-center-card1{
+    margin-left:0px;
   }
 }
