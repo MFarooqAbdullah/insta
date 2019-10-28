@@ -1227,7 +1227,7 @@ header{height:60px;padding:15px 0}
 .headerSpace{height:60px}
 .homeSection{text-align:center}
 .HomeSection1 .mainRow ,
-.HomeSection2 .mainRow{padding:0 0 200px 0}
+.HomeSection2 .mainRow{padding:0 0 0px 0}
 .HomeSection1 .txtD h2{margin-top:50px !important;margin-bottom:10px !important}
 .HomeSection1 .txtD p{margin-bottom:30px !important}
 .HomeSection1 .txtD a.btn1{float:none !important}
@@ -1251,7 +1251,7 @@ header{height:60px;padding:15px 0}
 .offset-lg-1 {
   margin-left: 0.0%;
 }
-.start-laundring .download-wrapper{padding-left: 0px;}
+.start-laundring .download-wrapper{padding-left: 30px;}
 .start-laundring .mobile img{ margin: 0px;}
 .custListBtn .listIco{width:30px;margin-right:10px !important}
 .custListBtn .listIco svg{max-width:100%;vertical-align:top;height:28px}

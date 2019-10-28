@@ -117,7 +117,7 @@ input:focus,textarea:focus{outline:none!important}
 .pb-7 {padding-bottom:7px !important}
 .mt-10 {margin-top:10px !important}
 .mb-10 {margin-bottom:10px !important}
-.mb-minus-10 {margin-bottom:-10px !important}
+.mb-minus-10 {margin-bottom:0px !important}
 .ml-10 {margin-left:10px !important}
 .mr-10 {margin-right:10px !important}
 .pl-10 {padding-left:10px !important}
