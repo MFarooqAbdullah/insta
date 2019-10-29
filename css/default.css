@@ -118,6 +118,7 @@ input:focus,textarea:focus{outline:none!important}
 .mt-10 {margin-top:10px !important}
 .mb-10 {margin-bottom:10px !important}
 .mb-minus-10 {margin-bottom:0px !important}
+.ml-minus-60 {margin-left:-60px !important}
 .ml-10 {margin-left:10px !important}
 .mr-10 {margin-right:10px !important}
 .pl-10 {padding-left:10px !important}
@@ -309,6 +310,7 @@ input:focus,textarea:focus{outline:none!important}
 .no-pt{padding-top:0!important}
 .no-pb{padding-bottom:0!important}
 /*border gray*/
+.color-cyan{color:#37debb!important}
 .color-dark-blue{color:#00366c!important}
 .color-gray{color:#646464!important}
 .bg-gray{background-color:#646464!important}
