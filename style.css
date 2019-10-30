@@ -392,6 +392,10 @@ Pricing Page
       display: block !important;
       box-sizing:border-box;
   }
+  .table-res{
+      /* width: 129%; */
+      padding-left: 0px;
+    }
   }
   
   @media screen and (max-width: 992px) {
